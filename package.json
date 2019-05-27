@@ -1,0 +1,28 @@
+{
+  "name": "@flexio-oss/global-import-registry",
+  "version": "0.0.0-dev",
+  "description": "Registry for imported class for evry scoopes\n",
+  "main": "index.js",
+  "module": "index.js",
+  "repository": "git@github.com:flexiooss/global-import-registry.git",
+  "author": "Thomas Chatelain (https://github.com/TomAchT)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@flexio-oss/assert": "0.0.0",
+    "@flexio-oss/extended-flex-types": "0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-html": "^4.0.1",
+    "code-altimeter-js": "https://github.com/flexiooss/code-altimeter-js.git"
+  },
+  "hotballoon-shed": {
+    "build": {
+      "builder": "webpack4"
+    },
+    "test": {
+      "tester": "code-altimeter-js",
+      "path": "src/test"
+    }
+  }
+}
