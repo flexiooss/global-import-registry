@@ -1,6 +1,6 @@
 {
   "name": "@flexio-oss/global-import-registry",
-  "version": "0.1.0-dev",
+  "version": "0.0.0",
   "description": "Registry for imported class for every scopes",
   "main": "index.js",
   "module": "index.js",
